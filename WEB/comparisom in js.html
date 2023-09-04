@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>javascript comparison</h1>
+    <input type="number" value="15" id="age"/>
+    <button onclick="myclick()">my click</button>
+    <p id="demo"></p>
+    <p id="a"></p>
+    <p id="b"></p>
+
+    <script>
+        function myclick() {
+            let age = document.getElementById("age").value;
+            let voteable = (age< 18)? "too young " : "old enough"
+            document.getElementById("demo").innerHTML= voteable + "to vote.";
+            }
+    </script>
+ <p id="time">Good Day!</p>
+  
+  <script>
+    if (new Date().getHours()<18) {
+        document.getElementById("time").innerHTML = "Good day";
+    }
+  </script>
+
+  <script>
+    if (new Date().getHours() > 10 ){
+        document.getElementById ('a').innerHTML = "Good Day";
+    } else{
+        document.getElementById('b').innerHTML = "Good Afternoon";
+    }
+  </script>
+  <p id="car"></p>
+  <script>
+    const cars = ["BMW", "Volvo", "Saab", "Ford", "Fiat", "Audi"];
+
+    let Text = "";
+    for (let i = 0; i <cars.length; i++){
+        Text += cars[i] + "<br>";
+        
+    }
+    document.getElementById("car").innerHTML = Text;
+  </script>
+  <h3>javascript switch statement</h3>
+  
+</body>
+</html>

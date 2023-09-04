@@ -1,0 +1,19 @@
+img{
+    
+ border-radius: 100%;
+}
+h3{
+    color: blue;
+}
+h1{
+    color: blue;
+}
+hr{
+    border-style: none;
+    border-top: dotted;
+    border-width: 5%;
+    width: 10%;
+}
+body{
+    background-color: aquamarine;
+}

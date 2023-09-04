@@ -1,0 +1,89 @@
+*{margin: 0;
+padding: 0;
+}
+body{
+    background-color: rgb(211, 211, 211);
+}
+.container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #4267B2;
+        }
+    .left h1{
+        color: #4267B2;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 3.2rem;
+      
+             
+      }
+
+      .left h2{
+        font-family: Arial;
+        font-size: larger;
+        font-weight: bold;
+      }
+      .left h3{
+        font-size: larger;
+        color: black;
+      }
+      .left p{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: large;
+        border: 10px;
+        margin-bottom: 50px;
+      }
+      .left{
+        margin: 100px;
+        padding: 100px;
+      }
+      .right{
+      margin: 100 auto 15px;
+      background-color: white;
+      border-radius: 5px;
+      padding: 80px;
+      padding-top: 0px;
+      padding-right: 15px;
+      padding-left: 5px;
+      padding-bottom: 2%;
+      }
+      
+    
+       
+       form{
+        margin: 20px 10px;
+        padding-bottom: 50px;
+        padding-right: 100px;
+        padding-left: 2px;
+        padding-top: 2px;
+
+       
+       
+      
+    }
+    .text{
+     margin-bottom: 10px;
+}
+input[type="text"]{
+
+    width: 150%;
+    border-radius: 5px;
+    padding: 14px 16px;
+    background-color: white;
+}
+
+input[type="password"]{
+    width: 150%;
+    border-radius: 5px;
+    padding: 14px 16px;
+    background-color: white;
+}
+input[type="button"]{
+    width: 150%;
+    border-radius: 5px;
+    padding: 14px 50px;
+    background-color: rgb(63, 146, 255);
+}
+
+
+   

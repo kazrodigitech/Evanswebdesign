@@ -1,0 +1,46 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+   <script src="function.js"></script>
+            </head>
+<body>
+
+
+  <h2>demo javascript in head</h2>
+<p id="demo"> A paragraph</p>
+<button type="button" onclick="myFunction()">try it</button>
+
+    <h2 id="content">Hello World</h2>
+    <p onclick='document.getElementById("content").innerHTML="Kazro Digitals"'>Text</p>
+       <p id="content">javascript can change the html content</p>
+    <button type="button" onclick='document.getElementById("content").innerHTML="Hello javascript"'>Click me</button>
+    <p>javascript can change the value of an attribute</p>
+    <button type="button" onclick="document.getElementById('image').src='netflix.jpg'">change image</button>
+      <img src="justme.jpg" alt="cart" style="width:100px" id="image">
+
+      <p id="change">javascript can change the html style</p>
+      <button type="button" onclick="document.getElementById('change').style.fontSize='50px'"></button>
+
+      <h1>javascript can hide html element</h1>
+      <p id="hide">javascript can hide html element</p>
+      <button type="button" onclick="document.getElementById('hide').style.display='none'">hide element</button>
+
+      <h1>javascript can hide html element</h1>
+      <p id="show" style="display: none;">javascript can hide html element</p>
+      <button type="button" onclick="document.getElementById('show').style.display='block'">show element</button>
+      
+      <p id="test 1"></p>
+      <script>
+      let a,b,c;
+      a=5;
+      b=6;
+      c=a+b;
+                document.getElementById("test 1").innerHTML=c;
+        </script>
+      </p>
+
+      
+</body>
+</html>
